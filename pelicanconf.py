@@ -4,11 +4,13 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Hana Lee'
 SITENAME = u'H.N. Lee'
-SITEURL = ''
+SITEURL = u'http://hanalee.info'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = u'America/Chicago'
 
 DEFAULT_LANG = u'en'
+MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra','tables']
+THEME = "../pelican-themes/built-texts"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -25,7 +27,7 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 30
+DEFAULT_PAGINATION = 1
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
