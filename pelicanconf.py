@@ -12,6 +12,9 @@ DEFAULT_LANG = u'en'
 MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra','tables']
 THEME = "../pelican-themes/built-texts"
 
+TAG_CLOUD_STEPS = 4
+TAG_CLOUD_MAX_ITEMS = 100
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
