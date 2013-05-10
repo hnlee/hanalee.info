@@ -10,7 +10,7 @@ TIMEZONE = u'America/Chicago'
 
 DEFAULT_LANG = u'en'
 MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra','tables']
-THEME = "../pelican-themes/built-texts"
+THEME = "./built-texts"
 
 TAG_CLOUD_STEPS = 4
 TAG_CLOUD_MAX_ITEMS = 100
