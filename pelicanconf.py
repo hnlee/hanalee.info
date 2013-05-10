@@ -28,7 +28,7 @@ LINKS =  (('?', '#'),
 SOCIAL = (('twitter', 'http://twitter.com/lee_hn'),
           ('github', 'http://github.com/hnlee'),
           ('linkedin', 'http://www.linkedin.com/pub/hana-lee/45/7a/409'),
-          ('email', 'mailto:hanalee@uchicago.edu')
+          ('email', 'mailto:hanalee@uchicago.edu'),)
 
 GITHUB_URL = 'http://github.com/hnlee/'
 
