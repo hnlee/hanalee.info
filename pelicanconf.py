@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Hana Lee'
-SITENAME = u'H.N. Lee'
+SITENAME = u'Lee HN'
 SITEURL = u'http://hanalee.info'
 
 TIMEZONE = u'America/Chicago'
@@ -21,16 +21,18 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+LINKS =  (('?', '#'),
+          ('?', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'http://twitter.com/lee_hn'),
+          ('github', 'http://github.com/hnlee'),
+          ('linkedin', 'http://www.linkedin.com/pub/hana-lee/45/7a/409'),
+          ('email', 'mailto:hanalee@uchicago.edu')
 
-DEFAULT_PAGINATION = 1
+GITHUB_URL = 'http://github.com/hnlee/'
+
+DEFAULT_PAGINATION = 30
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
