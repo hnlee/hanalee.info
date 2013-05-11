@@ -34,10 +34,13 @@
             <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
             {% endfor %}
             {% endif %}
+
+          {% if DISPLAY_CATEGORIES_ON_MENU %}
 	   {% for cat, null in categories %}
 	    <li {% if cat == category %} class="active" {% endif %}>
 	      <a href="{{ SITEURL }}/{{ cat.url }} ">{{ cat }}</a>
 	   {% endfor %}
+          {% endif %}
 	</ul>
       </div>
     </div> <!-- End of fluid row-->
