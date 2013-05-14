@@ -1,12 +1,12 @@
 {% extends "base.html" %}
-{% block title %}{{ SITENAME }} <small>[tgs]</small>{% endblock %}
+{% block title %}{{ SITENAME }} <small>[tags]</small>{% endblock %}
 {% block content %}
 
 <h2>Tags</h2>
 
 <ul>
 {% for tag, articles in tags %}
-{% if tag[:13] == 'lab notebook:' %}
+{% if 'lab notebook' not in tag.name %}
     <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</li>
 {% endif %}
 {% endfor %}
