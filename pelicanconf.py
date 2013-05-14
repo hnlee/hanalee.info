@@ -20,15 +20,27 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('?', '#'),
-          ('?', '#'),)
+#LINKS =  (('', '#'),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/lee_hn'),
           ('github', 'http://github.com/hnlee'),
-          ('linkedin', 'http://www.linkedin.com/pub/hana-lee/45/7a/409'),)
+          ('linkedin', 'http://www.linkedin.com/pub/hana-lee/45/7a/409'),
+          ('google scholar', 'http://scholar.google.com/citations?hl=en&user=dOVsa18AAAAJ'),)
 EMAIL = 'hanalee@uchicago.edu'
 GITHUB_URL = 'http://github.com/hnlee/'
+
+# Colophon
+COLOPHON = True
+COLOPHON_TITLE = 'About'
+COLOPHON_CONTENT = 'I am a postdoctoral researcher with Joy Bergelson's group
+                    in the Department of Ecology and Evolution at the University
+                    of Chicago. My research interests focus on using genomics to                    interrogate the genetic basis of ecologically relevant 
+                    traits in natural populations and gain a better 
+                    understanding of evolutionary mechanisms at the molecular 
+                    level. Currently, I am investigating the effects of host 
+                    genetic background on endophytic microbial communities 
+                    found in <em>Arabidopsis thaliana</em>.'
 
 DEFAULT_PAGINATION = 30
 
