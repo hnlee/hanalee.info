@@ -5,7 +5,8 @@ Filed under <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.catego
 </p>
 <p style="text-align: left;">
 {% if article.tags %} 
-    Tags {% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> {% endfor %}
+    Tags {% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{
+tag }}</a>{% if loop.last or loop.length == 1 %}{% else %}, {% endif %}{% endfor %}
 {% endif %}
 </p>
 <p>
