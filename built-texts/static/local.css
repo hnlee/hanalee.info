@@ -40,6 +40,7 @@ thead { border-bottom: 2px solid #fff; background-color: #bbb; }
 tbody { background-color: #eee; }
 th, td { border-bottom: 2px solid #fff; padding: 5px 15px; }
 table { margin: 10px 0px; }
+img { width:500px; }
 
 .brand { font-family: 'Alegreya SC', 'Garamond', 'Georgia'; font-weight: normal; font-size: 42px; line-height:40px; margin-top: 10px; display: block; color:#000001; }
 
