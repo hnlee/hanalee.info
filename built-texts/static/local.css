@@ -40,7 +40,6 @@ thead { border-bottom: 2px solid #fff; background-color: #bbb; }
 tbody { background-color: #eee; }
 th, td { border-bottom: 2px solid #fff; padding: 5px 15px; }
 table { margin: 10px 0px; }
-img { width:500px; }
 
 .brand { font-family: 'Alegreya SC', 'Garamond', 'Georgia'; font-weight: normal; font-size: 42px; line-height:40px; margin-top: 10px; display: block; color:#000001; }
 
@@ -49,7 +48,11 @@ img { width:500px; }
 .content-title { margin-bottom: 30px; }
 .article a:hover { text-decoration: none; } 
 
-
+/*Styling for images */
+img.wide500 { width:500px; }
+img.high500 { height:500px; }
+img.wide250 { width:250px; }
+img.high250 { height:250px; }
 
 /* Styling for the "other entries" section */
 /* Metadata */
