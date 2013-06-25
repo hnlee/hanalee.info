@@ -16,10 +16,12 @@
 	<hr />
       </div>
     </div>
+    {% if article.category != "lab notebook" %}    
     <div class="span12">
       <h3>Comments</h3>
-    
+
     {% include 'disqus.html' %}
     </div>  
+    {% endif %}
     </div>
 {% endblock %}
