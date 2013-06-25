@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Hana Lee'
 SITENAME = u'Genetic Cartography'
-SITESUBTITLE = u'website and blog by H.N. Lee'
+SITESUBTITLE = u'website and blog by Hana Lee'
 SITEURL = u'http://hanalee.info'
 TIMEZONE = u'America/Chicago'
 
