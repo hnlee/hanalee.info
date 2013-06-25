@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Hana Lee'
-SITENAME = u'Lee HN'
-SITESUBTITLE = u'quantitative genetics & genomics'
+SITENAME = u'Genetic Cartography'
+SITESUBTITLE = u'website and blog of Hana Lee'
 SITEURL = u'http://hanalee.info'
 TIMEZONE = u'America/Chicago'
 
