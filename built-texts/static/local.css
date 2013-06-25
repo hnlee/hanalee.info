@@ -42,7 +42,7 @@ th, td { border-bottom: 2px solid #fff; padding: 5px 15px; }
 table { margin: 10px 0px; }
 
 .brand { font-family: 'Alegreya SC', 'Garamond', 'Georgia'; font-weight: normal; font-size: 42px; line-height:40px; margin-top: 10px; display: block; color:#000001; }
-.subbrand { font-family: 'Gudea', 'Gill Sans', 'Arial'; font-weight: normal; font-size: 16px; line-height:40px; margin-left: 40px; color:#4d4d4d; }
+.subbrand { font-family: 'Gudea', 'Gill Sans', 'Arial'; font-weight: normal; font-size: 21px; line-height:40px; margin-left: 40px; color:#4d4d4d; }
 
 /* Styling for articles */
 .article { padding-bottom:15px; padding-right: 40px; }
