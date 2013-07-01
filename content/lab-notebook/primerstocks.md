@@ -1,7 +1,7 @@
 Title: Primer stocks
 Category: lab notebook
 Tags: lab notebook: stocks
-Date: 2013-06-04
+Date: 2013-06-28
 Summary: Primer stocks
 
 ## Primer stocks ##
