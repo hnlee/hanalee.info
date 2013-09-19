@@ -1,6 +1,6 @@
 Title: Primer stocks
-Category: lab notebook
-Tags: lab notebook: stocks
+Category: lab-notebook
+Tags: lab-notebook: stocks
 Date: 2013-06-28
 Summary: Primer stocks
 
@@ -17,3 +17,8 @@ Number |Name          |Sequence                 |T<sub>m</sub> |%GC   |nmoles |N
 004    |F_gyrB_PNA291a|`GTCTGCGTGCATTCGTCGAG`   |         62.00| 60.00|24.7   |163 bp with R_gyrB
 005    |R_gyrB_LP205a |`TGCGGGATGTTGTTGGTGAA`   |         60.47| 50.00|25.7   |163 bp with F_gyrB
 005    |R_gyrB_PNA291a|`TGTGGAATGTTGTTGGTGAA`   |         55.68| 40.00|23.2   |163 bp with F_gyrB
+006    |F_mCherry     |`CAGTTCATGTACGGCTCCAA`   |         57.91| 50.00|30.3   |
+007    |F_eFP         |`TGAAGTTCATCTGCACCACC`   |         58.10| 50.00|32.9   |
+008    |R_eFP         |`ACTTGTACAGCTCGTCCATG`   |         57.63| 50.00|32.3   |
+009    |mCherry_seq   |`CCGACATCCCCGACTACTTG`   |         59.90| 60.00|30.5   |
+010    |eFP_seq       |`AGGACGACGGCAACTACAAG`   |         60.04| 55.00|28.8   |
