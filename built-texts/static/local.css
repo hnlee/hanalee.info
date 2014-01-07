@@ -45,7 +45,8 @@ table { margin: 10px 0px; }
 .subbrand { font-family: 'Gudea', 'Gill Sans', 'Arial'; font-weight: normal; font-size: 21px; line-height:40px; margin-top: 10px; display: block; text-align: right; color:#4d4d4d; }
 
 /* Styling for articles */
-.article { padding-bottom:15px; padding-right: 40px; }
+.article { padding-bottom:40px; padding-right: 40px; }
+.page { padding-bottom:40px; }
 .content-title { margin-bottom: 30px; }
 .article a:hover { text-decoration: none; } 
 

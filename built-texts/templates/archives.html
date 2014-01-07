@@ -7,7 +7,7 @@
 <table class="table table-striped">
     <tbody>
     {% for article in dates %}
-    {% if article.category != "lab notebook" %}
+    {% if article.category != "lab-notebook" %}
         <tr>
         <td>{{ article.date.strftime("%d %b %Y") }}</td>
         <td><a href='{{ article.url }}'>{{ article.title }}</a></td>

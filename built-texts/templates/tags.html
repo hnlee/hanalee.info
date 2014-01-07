@@ -6,7 +6,7 @@
 
 <ul>
 {% for tag, articles in tags %}
-{% if 'lab notebook' not in tag.name %}
+{% if 'lab-notebook' not in tag.name %}
     <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</li>
 {% endif %}
 {% endfor %}
