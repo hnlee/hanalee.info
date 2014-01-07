@@ -1,6 +1,7 @@
-Date: 2014-01-07
+Date: 2014-01-01
 Title: Planting schedule
-Category: lab-notebook: schedules
+Category: lab-notebook
+Tags: lab-notebook: schedules
 Summary: Schedule for planting
 
 ##Planting 001
@@ -43,8 +44,38 @@ Summary: Schedule for planting
     * E: Control, BHL001, BHL002, BHL001 & BHL002
     * F: Control, BHL001, BHL002, BHL001 & BHL002
 * Stratifying
+    * A: 2014.01.20 Mon
+    * B: 2014.01.21 Tues
+    * C: 2014.01.27 Mon
+    * D: 2014.01.28 Tues
+    * E: 2014.02.03 Mon
+    * F: 2014.02.04 Tues
 * Sowing
+    * A: 2014.01.27 Mon
+    * B: 2014.01.28 Tues
+    * C: 2014.02.03 Mon
+    * D: 2014.02.04 Tues
+    * E: 2014.02.10 Mon
+    * F: 2014.02.11 Tues
 * Thinning
+    * A: 2014.02.13 Thurs
+    * B: 2014.02.14 Fri
+    * C: 2014.02.20 Thurs
+    * D: 2014.02.21 Fri
+    * E: 2014.02.27 Thurs
+    * F: 2014.02.28 Fri
 * Inoculating
+    * A: 2014.02.17 Mon 
+    * B: 2014.02.18 Tues
+    * C: 2014.02.24 Mon
+    * D: 2014.02.25 Tues
+    * E: 2014.03.03 Mon
+    * F: 2014.03.04 Tues
 * Harvesting
+    * A: 2014.02.20 Thurs
+    * B: 2014.02.21 Fri
+    * C: 2014.02.27 Thurs
+    * D: 2014.02.28 Fri
+    * E: 2014.03.06 Thurs
+    * F: 2014.03.07 Fri
 
