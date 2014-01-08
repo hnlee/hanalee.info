@@ -35,5 +35,6 @@ BHL024     |Knox652c     |_Pseudomonas syringae_ |wild-type, HR+, 20130723
 BHL025     |Knox244a     |_Pseudomonas syringae_ |wild-type, HR+, 20130723
 BHL026     |Knox658a     |_Pseudomonas syringae_ |wild-type, HR+, 20130723
 BHL027     |Knox623a     |_Pseudomonas syringae_ |wild-type, HR+, 20130723
-
+BHL028     |PNA29.1a     |_Pseudomonas syringae_ |_hrpL<sup>-</sup>, HR+, from Luke, 20140108
+BHL029     |PNA29.1a     |_Pseudomonas syringae_ |_hrpL<sup>-</sup>, HR+, from Luke, 20140108
 
