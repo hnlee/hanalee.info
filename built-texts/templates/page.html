@@ -3,10 +3,10 @@
 {% block content %}
 <section id="content" class="body span12">    
     <div class="page">
-    <h2 class="content-title">{{ page.title }}</h2>
     <div class="row-fluid">
         <div class="span2"></div>
         <div class="span8">
+            <h2 class="content-title">{{ page.title }}</h2>
             {% if PDF_PROCESSOR %}<a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">get the pdf</a>{% endif %}
             {{ page.content }}
         </div>
