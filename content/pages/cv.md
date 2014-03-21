@@ -46,7 +46,7 @@ metabolism in wild Malaysian yeast. _G3: Genes, Genomes, Genetics_
 **Lee HN**, Magwene PM, Brem RB (2011). Natural variation in _CDC28_
 underlies morphological phenotypes in an environmental yeast isolate.
 _Genetics_ **188(3):** 723-730. doi:
-[10.1534/genetics.111.12819](http://dx.doi.org/10.1534/genetics.111.12819)
+[10.1534/genetics.111.128819](http://dx.doi.org/10.1534/genetics.111.128819)
 
 Sangster TA, Salathia N, **Lee HN**, Watanabe E, Schellenberg K, Morneau K, Wang
 H, Undurraga S, Queitsch C, Lindquist S (2008). HSP90-buffered genetic
