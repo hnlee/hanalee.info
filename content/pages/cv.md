@@ -2,8 +2,6 @@ Title: Curriculum vitae
 
 [PDF version](../static/pdfs/cv.pdf)
 
-# Hana Lee #
-
 ###Contact Information###
 
 Department of Ecology & Evolution &bull; University of Chicago  
@@ -110,8 +108,8 @@ Web framework: Django
 
 ### Professional Affiliations ###
 
-(2013-now) Genetics Society of America
+(2013-now) **Genetics Society of America**
 
-(2013-now) Society for Molecular Biology and Evolution
+(2013-now) **Society for Molecular Biology and Evolution**
 
-(2013-now) National Postdoctoral Association
+(2013-now) **National Postdoctoral Association**
