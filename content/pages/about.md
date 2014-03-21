@@ -1,8 +1,7 @@
-Title: About
-URL:
+Title: About me
 save_as: index.html
 
-<img src="http://hanalee.info/static/images/profile.jpg" style="float:right;margin-left: 20px;">
+<img src="http://hanalee.info/static/images/profile.jpg" style="float:right;margin-left: 2.5em;">
 I am a postdoctoral researcher with Joy Bergelson's group in the Department of
 Ecology and Evolution at the University of Chicago. My research interests focus
 on using genomics to interrogate the genetic basis of ecologically relevant
