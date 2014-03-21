@@ -27,8 +27,10 @@
 
 ul#sitelinks.nav.nav-list > li > a >i {
     color: #1f334b;}
+
 /* Styling for elements */
 a {color: #0A5693} 
+a:hover {text-decoration: none;}
 body {font-family: 'Gudea', 'Gill Sans', 'Arial'; font-size: 16px; line-height: 1.2em}
 p { font-family: 'Gudea', 'Gill Sans', 'Arial'; font-size: 16px; line-height: 1.2em; margin-top: 0.8em; margin-bottom: 0.8em; text-align: justify}
 li { line-height: 1.6em; }
@@ -43,7 +45,6 @@ th, td { border-bottom: 2px solid #fff; padding: 5px 15px; }
 table { margin: 10px 0px; }
 
 .brand { font-family: 'Alegreya SC', 'Garamond', 'Georgia'; font-weight: normal; font-size: 42px; line-height:40px; margin-top: 10px; display: block; color:#000001; }
-.brand a:hover { text-decoration:none; }
 .subbrand { font-family: 'Gudea', 'Gill Sans', 'Arial'; font-weight: normal; font-size: 21px; line-height:40px; margin-top: 10px; display: block; text-align: right; color:#4d4d4d; }
 
 /* Styling for articles */
