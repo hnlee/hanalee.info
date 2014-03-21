@@ -28,7 +28,7 @@ inbred lines for quantitative trait loci analysis"
 (2013-now) **Postdoctoral researcher with Dr. Joy Bergelson**    
 Department of Ecology & Evolution, University of Chicago
 
-(2007-2013) **Graduate student researcher with Dr. Rachel Brem**
+(2007-2013) **Graduate student researcher with Dr. Rachel Brem**  
 Department of Molecular  & Cell Biology, University of California, Berkeley  
 
 (2007-2008) **Rotation student with Dr. Rachel Brem, Dr. Michael Eisen, and Dr.
