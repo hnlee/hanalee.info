@@ -13,7 +13,7 @@ MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra','tables']
 THEME = "./built-texts"
 
 DISPLAY_CATEGORIES_ON_MENU = False
-
+USE_FOLDER_AS_CATEGORY = True
 ARTICLE_URL='{category}/{slug}.html'
 ARTICLE_SAVE_AS='{category}/{slug}.html'
 
@@ -38,7 +38,7 @@ COLOPHON = True
 COLOPHON_TITLE = 'Navigation'
 COLOPHON_CONTENT = ""
 
-DEFAULT_PAGINATION = 30
+DEFAULT_PAGINATION = 8
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
