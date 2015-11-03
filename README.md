@@ -1,4 +1,4 @@
 hanalee.info
 ============
 
-Professional site, including CV, blog, and lab notebook
+Professional site, including CV and blog.
