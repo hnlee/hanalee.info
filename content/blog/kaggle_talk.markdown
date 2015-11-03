@@ -31,5 +31,5 @@ Not a comprehensive outline of the talk, just a list of points that I found inte
     - What about in-between cases? e.g. EEG data for grasping vs lifting: time series data where neural networks won
 - Any way to automate feature engineering? - a hard problem...
 - Optimizing behavior in response to machine learning results? - also a hard problem...
-- [Kaggle scripts](https://www.kaggle.com/scripts) as a learning resource, "Github for data science"
+- [Kaggle Scripts](https://www.kaggle.com/scripts) as a learning resource, "Github for data science"
 - Properties of Kaggle winners: good coders, careful use of version control, coding best practices, tenacity 
