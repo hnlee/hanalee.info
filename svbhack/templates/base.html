@@ -52,21 +52,17 @@
         {% if not loop.last %}&nbsp;{% endif %}
         {% endfor %}
       </p>
-      {% if DISPLAY_PAGES_ON_MENU %}
       <ul>
+      {% if DISPLAY_PAGES_ON_MENU %}
         {% for p in pages %}
         <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
         {% endfor %}
-      </ul>
       {% endif %}
       {% if DISPLAY_CATEGORIES_ON_MENU %}
-      <ul>
         {% for c, articles in categories|sort %}
         <li><a href="{{ SITEURL }}/{{ c.url }}">{{ c.name.capitalize() }}</a></li>
         {% endfor %}
-      </ul>
       {% endif %}
-      <ul>
         {% for title, link in MENUITEMS %}
         <li><a href="{{ link }}">{{ title }}</a></li>
         {% endfor %}
