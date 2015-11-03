@@ -72,12 +72,6 @@ ssh_upload: publish
 rsync_upload: publish
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvz $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
 
-backup:
-	scp -r * hanalee@25.160.194.186:/Volumes/Kakuichi/bergelson/hanalee.info
-
-backup_images:
-	scp -r troisrr@trois-royaumes.com:public_html/hanalee.info/static ./
-
 dropbox_upload: publish
 	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
 
