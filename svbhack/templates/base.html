@@ -54,7 +54,7 @@
       </p>
       <ul>
       {% if DISPLAY_PAGES_ON_MENU %}
-        {% for p in pages %}
+        {% for p in pages|sort(attribute="order") %}
         <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
         {% endfor %}
       {% endif %}
