@@ -3,7 +3,7 @@ Date: 2015-12-17
 Category: blog
 Tags: chipy, python, talks
 Author: Hana Lee
-Summary: My notes on the talks given at the ChiPy December 2015 meeting.
+Summary: My notes on the talks given at the ChiPy meeting on 10 Dec 2015 at the National Association of Realtors.
 
 ### Portable Format for Analytics
 Speaker: Robert Grossman and Collin Bennet

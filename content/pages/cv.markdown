@@ -1,12 +1,12 @@
 Title: Curriculum vitae
 Modified: 2015-11-01
+order: 3
 
 [PDF version](../static/pdfs/cv.pdf)
 
 ### Contact Information ###
 
 hanalee07 _at_ gmail _dot_ com <br />
-[www.hanalee.info](http://hanalee.info)
 
 ### Education ###
 

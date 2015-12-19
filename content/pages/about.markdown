@@ -2,6 +2,7 @@ Title: About
 Modified: 2015-11-01
 URL: index.html
 save_as: index.html
+order: 1
 
 I am a scientist interested in exploring and analyzing big data. In a
 former life, I was a genetics and genomics researcher, with expertise in
