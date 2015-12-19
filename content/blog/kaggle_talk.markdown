@@ -2,7 +2,7 @@ Title: Notes on "Lessons from 2MM machine learning models"
 Date: 2015-11-03
 Modified:
 Category: blog
-Tags: data science, supervised learning, kaggle
+Tags: data science, kaggle, talks
 Author: Hana Lee
 Summary: My notes on a talk given by Kaggle's founder, Anthony Goldbloom, on 2 Nov 2015 at the Blue 1647 Innovation Center.
 

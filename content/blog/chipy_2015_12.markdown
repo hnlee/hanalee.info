@@ -1,0 +1,56 @@
+Title: Notes on ChiPy December 2015 talks
+Date: 2015-12-17
+Category: blog
+Tags: chipy, python, talks
+Author: Hana Lee
+Summary: My notes on the talks given at the ChiPy December 2015 meeting.
+
+### Portable Format for Analytics
+Speaker: Robert Grossman and Collin Bennet
+
+- Motivation: often hard to deploy analytics because making models production-ready/scalable requires standardization between different programming languages
+- Business analytics requires coordinating three different groups of people:
+    - Data engineers (infrastructure)
+    - Data scientists (model producers)
+    - "Analytic ops" (model consumers)
+- Previous attempt at standardization: Predictive Model Markup Language (PMML)
+- PMML describes models in XML but does not include information about how multiple models can be chained together or used as pre-/post-processing
+- New emerging standard: Portable Format for Analytics
+- PFA uses JSON and is more flexible than PMML without breaking data pipelines
+- Titus is the Python engine used to produce and score PFA models
+- Engines available in other languages, e.g. Aurelius for R (naming system based on Roman emperors)
+- See [Open Data Group's Github](https://github.com/opendatagroup) for more information
+- Tutorials on PFA available at [Data Mining Group](http://dmg.org/pfa/)
+- Normal use case is to develop model in language of choice, use Titus to pull out relevant parts of the model and export it to JSON, and then rewrite it in a faster form for production
+- Also possible to develop models directly in Titus
+- Compliance tests to ensure that implementation stays consistent between different languages
+
+### SQLAlchemy
+Speaker: Will Engler
+
+- SQLAlchemy often called "database toolkit" for Python
+- Beyond just object-relational mapping (ORM) = associating object-oriented classes with database tables (like models in Django)
+- "Core" layers beneath the ORM features
+- Engine that connects to many different "dialects" of SQL
+- MetaData object acts as a registry for database tables 
+- Table object allows representation of tables from databases without creating a new object
+- SQL expressions as Python objects, enabling ease of chaining for complex queries and switching between SQL dialects
+- Security features to protect against SQL injection
+
+### Meet the micro:bit
+Speaker: Naomi Ceder
+
+- Slides available at [http://goo.gl/lu7tXc](http://goo.gl/lu7tXc)
+- BBC Micro: computer sponsored to aid computer literacy in the UK during the 1980s, very popular in schools
+- BBC micro:bit: development influenced by the current new push for coding literacy in the UK (including a national curriculum for computing)
+- Plan was to produce computer very cheaply and distribute to every Year 7 (~11 year old) student in the UK
+- Behind schedule due to production problems, but currently five models available for testing
+- Partnered with the Python Software Foundation, goal to get Python on it
+- "Official" coding options involved Microsoft's touch development environment and block editor
+- In looking for an alternative, Micropython: originally developed for Raspberry Pi
+- "Micro:bit world tour": send out models and track their progress on a [map](http://microworldtour.github.io/)
+- Cool stuff:
+    - Use onboard accelerometer to fly an X-wing in Minecraft
+    - Flash messages on LED array
+
+__Addendum:__ I never wrote up the notes for the November meeting, but the [slides](http://tanyaschlusser.github.io/Python-Fu-in-GIMP.slides.html#/) and [code](http://bit.ly/chipy_gimp) are available for Tanya Schlusser's talk, "Python-fu in the GIMP". Worth reviewing!
