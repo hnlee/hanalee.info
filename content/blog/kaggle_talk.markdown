@@ -1,6 +1,5 @@
 Title: Notes on "Lessons from 2MM machine learning models"
 Date: 2015-11-03
-Modified:
 Category: blog
 Tags: data science, kaggle, talks
 Author: Hana Lee

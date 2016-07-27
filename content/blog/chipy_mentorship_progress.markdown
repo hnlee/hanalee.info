@@ -1,6 +1,5 @@
 Title: ChiPy Mentorship: Progress
 Date: 2015-12-07
-Modified:
 Category: blog
 Tags: chipy, python, data science, kaggle
 Author: Hana Lee

@@ -1,6 +1,5 @@
 Title: Goalsetting
 Date: 2015-11-01
-Modified:
 Category: blog
 Tags: admin
 Author: Hana Lee

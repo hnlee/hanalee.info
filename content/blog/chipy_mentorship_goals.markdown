@@ -1,6 +1,5 @@
 Title: ChiPy Mentorship: Learning Goals
 Date: 2015-11-02
-Modified:
 Category: blog
 Tags: chipy, python, data science
 Author: Hana Lee
