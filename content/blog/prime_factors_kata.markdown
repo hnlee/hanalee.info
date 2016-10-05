@@ -1,7 +1,7 @@
 Title: Prime Factors coding kata 
 Date: 2016-07-26
 Category: blog
-Tags: 8thlight, apprenticeship, java, codingkata 
+Tags: 8th light, apprenticeship, java, coding kata 
 Author: Hana Lee
 Summary: Thoughts on practicing the Prime Factors coding kata
 

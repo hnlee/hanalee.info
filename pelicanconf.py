@@ -41,7 +41,7 @@ GITHUB_URL = 'http://github.com/hnlee/'
 
 # Theme-specific
 
-TAGLINE = 'scientific computing & big data'
+TAGLINE = 'software & big data'
 INTERNET_DEFENSE_LEAGUE = True
 USER_LOGO_URL = SITEURL + '/static/images/logo.png'
 

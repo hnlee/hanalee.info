@@ -1,7 +1,7 @@
 Title: First day at 8th Light
 Date: 2016-07-18
 Category: blog
-Tags: 8thlight, apprenticeship, java
+Tags: 8th light, apprenticeship, java
 Author: Hana Lee
 Summary: My first day as a resident apprentice at 8th Light.
 

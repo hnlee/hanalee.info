@@ -1,7 +1,7 @@
 Title: Test-Driven Development by Example 
 Date: 2016-07-23
 Category: blog
-Tags: 8thlight, apprenticeship, java, tdd
+Tags: 8th light, apprenticeship, java, tdd, books
 Author: Hana Lee
 Summary: Notes on _Test-Driven Development by Example_ by Kent Beck
 
