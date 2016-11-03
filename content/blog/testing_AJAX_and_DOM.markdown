@@ -50,12 +50,14 @@ change had happened to the element.
 These two steps allowed me to create a toolkit of reusable functions for making AJAX GET and
 POST requests and for displaying, hiding, and replacing parts of the DOM. Then I
 could easily write unit tests for the specific user interactions that combined those
-functions.
+functions. Having the fake server here was especially useful because you could
+explicitly test that an element was loading the message body of the response
+received from the server after an AJAX request.
 
 We are using <a
 href="https://github.com/jnicklas/capybara">Capybara</a> to handle our
 acceptance tests. While Capybara is very powerful, you do need to be thoughtful
-about how you write any tests that cover functionality involving asynchronoous
+about how you write any tests that cover functionality involving asynchronous
 requests. One <a
 href="https://robots.thoughtbot.com/write-reliable-asynchronous-integration-tests-with-capybara">blog
 post</a> provides a good summary of the points to keep in mind. However,
@@ -66,7 +68,7 @@ for Rspec to realize it needs to use the Javascript driver.
 Speaking of which, it probably helps to use a headless browser instead of the
 Capybara default for the Javascript driver. I ended up going with PhantomJS
 through the <a
-href="https://github.com/teampoltergeist/poltergeist">Poltergeist</a>, since we
+href="https://github.com/teampoltergeist/poltergeist">Poltergeist</a> gem, since we
 are using <a href="https://travis-ci.org/">Travis CI</a> for continuous
 integration, and it has PhantomJS already installed.
 
