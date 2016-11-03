@@ -34,18 +34,17 @@ quicker to write up my notes.
   principle or OCP).
 
 - Have self-checking automated tests so you can refactor safely.
-  - Run tests frequently after each step in a refactoring. If you forget, go
+    - Run tests frequently after each step in a refactoring. If you forget, go
     back and redo the refactoring with testing.
-  - Test boundary conditions and expected exceptions.
+    - Test boundary conditions and expected exceptions.
 
 - Some design principles to keep in mind:
-
-  - A method belongs with the object whose data it uses.
-  - Minimize use of temporary variables and complex conditional logic.
-  - Eliminate duplicate code since more lines of code are more difficult to
-    maintain.
-  - Clean code should not require you to remember anything about it to be
-    readable and comprehensible.
+    - A method belongs with the object whose data it uses.
+    - Minimize use of temporary variables and complex conditional logic.
+    - Eliminate duplicate code since more lines of code are more difficult to
+      maintain.
+    - Clean code should not require you to remember anything about it to be
+      readable and comprehensible.
 
 - Refactoring can be used to understand unfamiliar code or conduct a code
   review or understand a bug.
@@ -66,13 +65,13 @@ quicker to write up my notes.
 
 - While it creates more pieces of code to manage, the benefits outweigh the
   drawbacks:
-  - Easy to share logic between different parts of your code.
-  - Allows (through good naming practices) explanation of the intent behind
-    each step in your code.
-  - When making modifications, keeps change isolated to one part of the system.
-  - Simplify conditional logic (e.g. in object-oriented paradigm, you can use
-    the identity of the object rather than branching to specify different
-    behaviors)
+    - Easy to share logic between different parts of your code.
+    - Allows (through good naming practices) explanation of the intent behind
+      each step in your code.
+    - When making modifications, keeps change isolated to one part of the system.
+    - Simplify conditional logic (e.g. in object-oriented paradigm, you can use
+        the identity of the object rather than branching to specify different
+        behaviors)
 
 ### Limitations of refactoring
 
@@ -84,8 +83,8 @@ quicker to write up my notes.
 - Sometimes it is better to rewrite from scratch.
 
 - When _not_ to refactor:
-  - Too many failing tests! Only refactor code that works.
-  - Close to deadline
+    - Too many failing tests! Only refactor code that works.
+    - Close to deadline
 
 ### Performance optimization
 
@@ -105,10 +104,11 @@ help myself remember what each one is about.)
 __Duplicated code__: Self-explanatory
 
 __Long method__: Some heuristics for identification
-    - "When we feel a need to comment something, we write a method instead."
-    - A lot of parameters or temporary variables
-    - Conditional logic
-    - Loops
+
+- "When we feel a need to comment something, we write a method instead."
+- A lot of parameters or temporary variables
+- Conditional logic
+- Loops
 
 __Large class__: One sign is too many instance variables
 
