@@ -1,7 +1,7 @@
 Title: Pairing tour
 Date: 2017-01-12 
 Category: blog
-Tags: 8thlight, apprenticeship
+Tags: 8th light, apprenticeship
 Author: Hana Lee
 Summary: Summary of my apprenticeship pairing tour
 
