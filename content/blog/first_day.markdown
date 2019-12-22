@@ -13,7 +13,7 @@ software engineering role. The latter would require an expanded skill set
 and knowledge of software development, since as a researcher, I
 usually only wrote code for a single user: myself.
 
-Enter 8th Light, a software consulting company that has pioneered the
+Enter 8th Light, a [software consulting company](http://8thlight.com) that has pioneered the
 apprenticeship model for training software engineers. I'd heard about
 8th Light while attending tech Meetups in Chicago and their reputation for
 excellent coding practices and mentorship. So one day, I submitted an
@@ -33,7 +33,7 @@ administrivia, like handing in paperwork, setting up my laptop, getting my
 company email and Slack accounts, etc. I got to briefly meet some of the
 other apprentices during a weekly talk; the topic this time was on leadership,
 particularly on different [leadership
-styles](http://www.fastcompany.com/1838481/6-leadership-styles-and-when-you-should-use-them), 
+styles](http://www.fastcompany.com/1838481/6-leadership-styles-and-when-you-should-use-them),
 when to use them, and how to improve one's leadership skills. (I think that
 alone illustrates a lot about 8th Light's company culture: the emphasis on
 self-cultivation, the attention paid to organizational and interpersonal
